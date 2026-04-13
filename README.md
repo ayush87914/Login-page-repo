@@ -1,6 +1,6 @@
 # 🔐 Login Page
 
-A simple and responsive **Login Page UI** built using HTML and CSS. This project is ideal for beginners who want to practice front-end development and understand how login forms are structured.
+A simple and responsive **Login Page UI** built using HTML, CSS, and JavaScript. This project demonstrates a basic login validation system on the front end.
 
 ---
 
@@ -8,7 +8,8 @@ A simple and responsive **Login Page UI** built using HTML and CSS. This project
 
 * Clean and modern design
 * Responsive layout
-* Easy-to-use login form
+* Basic login validation using JavaScript
+* Instant success/error messages
 * Beginner-friendly code
 
 ---
@@ -17,6 +18,7 @@ A simple and responsive **Login Page UI** built using HTML and CSS. This project
 
 * HTML5
 * CSS3
+* JavaScript
 
 ---
 
@@ -24,7 +26,7 @@ A simple and responsive **Login Page UI** built using HTML and CSS. This project
 
 ### Clone the repository
 
-```bash
+```bash id="f8n2k1"
 git clone https://github.com/ayush87914/Login-page-repo.git
 ```
 
@@ -37,19 +39,32 @@ git clone https://github.com/ayush87914/Login-page-repo.git
 
 ## 📂 Project Structure
 
-```
+```id="k3l9x2"
 Login-page-repo/
 │── index.html
 │── style.css
+│── script.js (or inline JavaScript)
 ```
 
 ---
 
-## 💡 Usage
+## 💡 How It Works
 
-* Practice front-end skills
-* Use as a template for login pages
-* Customize for your own projects
+* The user enters a username and password
+* JavaScript checks the credentials
+* If:
+
+  * Username = **Admin**
+  * Password = **1234**
+* Then a success message is displayed
+* Otherwise, an error message appears
+
+---
+
+## ⚠️ Note
+
+This is a **front-end only project**.
+The login validation is not secure and should not be used in real applications. For production, use a backend with proper authentication.
 
 ---
 
